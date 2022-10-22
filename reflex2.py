@@ -77,7 +77,7 @@ def fun():
 
     cont = str(input("Do you want to continue? (y/n)"))
 
-    if cont == "y":
+    if cont[-1] == "y":
 
         fun()
 
